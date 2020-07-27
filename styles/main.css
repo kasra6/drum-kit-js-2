@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../images/bg.jpeg');
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.keys{
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+kbd{
+  color: #ff4e78;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 10px;
+  border: 1px solid #34ff78;
+}
