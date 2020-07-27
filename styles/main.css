@@ -25,4 +25,11 @@ kbd{
   font-size: 22px;
   padding: 10px;
   border: 1px solid #34ff78;
+  transition: all .7s;
+}
+
+.playing{
+  transform: scale(1.2);
+  border: 3px solid #ff4e78;
+  color: #34ff78;
 }
